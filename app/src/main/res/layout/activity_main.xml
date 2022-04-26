@@ -28,7 +28,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="FL Server IP"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:minHeight="48dp" />
 
 
     <EditText
@@ -37,7 +38,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="FL Server Port"
-        android:inputType="numberDecimal" />
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
 
 
     <Button
@@ -95,7 +97,7 @@
         android:overScrollMode="always"
         android:scrollbarAlwaysDrawHorizontalTrack="false"
         android:scrollbars="vertical"
-        android:text="Welcome to Flower! \n"
+        android:text="Welcome to Flower!"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="12sp"
         android:verticalScrollbarPosition="defaultPosition" />

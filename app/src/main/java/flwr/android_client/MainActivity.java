@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity {
 
                     int local_epochs = (int) epoch_config.getSint64();
 
-                    // Our model has 10 layers
+                    // Our model has 8 layers
                     ByteBuffer[] newWeights = new ByteBuffer[8];
                     for (int i = 0; i < newWeights.length; i++) {
                         newWeights[i] = ByteBuffer.wrap(layers.get(i).toByteArray());
@@ -243,7 +243,7 @@ public class MainActivity extends AppCompatActivity {
 
                     List<ByteString> layers = message.getEvaluateIns().getParameters().getTensorsList();
 
-                    // Our model has 10 layers
+                    // Our model has 8 layers
                     ByteBuffer[] newWeights = new ByteBuffer[8];
                     for (int i = 0; i < newWeights.length; i++) {
                         newWeights[i] = ByteBuffer.wrap(layers.get(i).toByteArray());
