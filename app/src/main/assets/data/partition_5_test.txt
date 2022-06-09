@@ -1,0 +1,35 @@
+val_race_025_renamed/Black/45.jpg
+val_race_025_renamed/Black/46.jpg
+val_race_025_renamed/Black/47.jpg
+val_race_025_renamed/Black/48.jpg
+val_race_025_renamed/Black/49.jpg
+val_race_025_renamed/East Asian/45.jpg
+val_race_025_renamed/East Asian/46.jpg
+val_race_025_renamed/East Asian/47.jpg
+val_race_025_renamed/East Asian/48.jpg
+val_race_025_renamed/East Asian/49.jpg
+val_race_025_renamed/Indian/45.jpg
+val_race_025_renamed/Indian/46.jpg
+val_race_025_renamed/Indian/47.jpg
+val_race_025_renamed/Indian/48.jpg
+val_race_025_renamed/Indian/49.jpg
+val_race_025_renamed/Latino_Hispanic/45.jpg
+val_race_025_renamed/Latino_Hispanic/46.jpg
+val_race_025_renamed/Latino_Hispanic/47.jpg
+val_race_025_renamed/Latino_Hispanic/48.jpg
+val_race_025_renamed/Latino_Hispanic/49.jpg
+val_race_025_renamed/Middle Eastern/45.jpg
+val_race_025_renamed/Middle Eastern/46.jpg
+val_race_025_renamed/Middle Eastern/47.jpg
+val_race_025_renamed/Middle Eastern/48.jpg
+val_race_025_renamed/Middle Eastern/49.jpg
+val_race_025_renamed/Southeast Asian/45.jpg
+val_race_025_renamed/Southeast Asian/46.jpg
+val_race_025_renamed/Southeast Asian/47.jpg
+val_race_025_renamed/Southeast Asian/48.jpg
+val_race_025_renamed/Southeast Asian/49.jpg
+val_race_025_renamed/White/45.jpg
+val_race_025_renamed/White/46.jpg
+val_race_025_renamed/White/47.jpg
+val_race_025_renamed/White/48.jpg
+val_race_025_renamed/White/49.jpg
