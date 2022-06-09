@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:hint="Client Partition ID (1-10)"
+            android:hint="Client Partition ID (1-20)"
             android:inputType="numberDecimal" />
 
     </LinearLayout>
@@ -29,7 +29,8 @@
         android:ems="10"
         android:hint="FL Server IP"
         android:inputType="phone"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:text="10.0.2.2" />
 
 
     <EditText
@@ -39,7 +40,8 @@
         android:ems="10"
         android:hint="FL Server Port"
         android:inputType="numberDecimal"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:text="8999" />
 
 
     <Button

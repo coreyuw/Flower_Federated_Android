@@ -84,17 +84,17 @@ public class MainActivity extends AppCompatActivity {
     public void setResultText(String text) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
         String time = dateFormat.format(new Date());
-        //resultText.append("\n" + time + "   " + text);
-        resultText.append(time + "   " + text + "\n");
+        resultText.append("\n" + time + "   " + text);
+        //resultText.append(time + "   " + text + "\n");
     }
 
     public void loadData(View view){
         if (TextUtils.isEmpty(device_id.getText().toString())) {
-            Toast.makeText(this, "Please enter a client partition ID between 1 and 10 (inclusive)", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Please enter a client partition ID between 1 and 20 (inclusive)", Toast.LENGTH_LONG).show();
         }
-        else if (Integer.parseInt(device_id.getText().toString()) > 10 ||  Integer.parseInt(device_id.getText().toString()) < 1)
+        else if (Integer.parseInt(device_id.getText().toString()) > 20 ||  Integer.parseInt(device_id.getText().toString()) < 1)
         {
-            Toast.makeText(this, "Please enter a client partition ID between 1 and 10 (inclusive)", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Please enter a client partition ID between 1 and 20 (inclusive)", Toast.LENGTH_LONG).show();
         }
         else{
             hideKeyboard(this);
@@ -252,7 +252,7 @@ public class MainActivity extends AppCompatActivity {
 
                     float loss = inference.first.first;
                     float accuracy = inference.first.second;
-                    activity.setResultText("Test Accuracy after this round = " + accuracy);
+                    activity.setResultText("\n Test Accuracy after this round = " + accuracy + "\n Loss after this round = " + loss);
                     int test_size = inference.second;
                     c = evaluateResAsProto(loss, test_size);
                 }

@@ -346,7 +346,7 @@ public final class TransferLearningModel implements Closeable {
                 }
               }
               float avgLoss = totalLoss / numBatchesProcessed;
-              Log.e("Avg Loss", avgLoss +"");
+              //Log.e("Avg Loss", avgLoss +"");
               if (lossConsumer != null) {
                 lossConsumer.onLoss(epoch, avgLoss);
               }
